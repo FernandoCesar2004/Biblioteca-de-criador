@@ -1,5 +1,5 @@
 body{
-    background-color: #332921;
+    background-color: #666666;
     margin: 0;
     height: 100vh;
 }
@@ -24,22 +24,26 @@ nav > a{
     padding: 10px;
     min-width: 6%;
 
-    background-color: rgba(250, 171, 75, 0.37);
+    background-color:  #FA9A50;
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #000;
     border-radius: 10px;
 }
 main{
-    background-color: #7A6E64;
+    background-color: #745e4c;
     border-radius: 10px;
     margin: auto;
+
     width: 191dvh;
     height: 47dvw;
     display: block;
+
     max-width:100%;
     min-width: 30%;
     min-height:90%;
+    box-shadow: -3px 4px 20px 0px rgba(0, 0, 0, 0.521);
+
 }
     
 main > .Criador{
@@ -56,6 +60,37 @@ main > .Criador{
     left: 1%;
     min-width: 10%;
 
+}
+.Criador > .Input-balão{
+    margin: 10px;
+    position: relative;
+}
+.Input-balão label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color:#504741;
+    padding: 0 5px ;
+    pointer-events: none;
+    transition: .3s;
+}
+.Input-balão input{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    padding: 0px 10px;
+    background: transparent;
+    border: 3px solid #504741;
+    border-radius: 10px;
+}
+.Input-balão input:focus~label,
+.Input-balão input:valid~label{
+    top: 0;
+    font-size: 15px ;
+    background-color: #504741;
+    color: aliceblue;
 }
 
 main > .Previa{
@@ -79,6 +114,9 @@ main > .Dados{
     height: 17dvh;
     margin: 1%;
     border-radius: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
     
     position: fixed;
     top: 13%;
