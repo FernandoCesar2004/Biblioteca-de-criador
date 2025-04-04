@@ -116,10 +116,18 @@ main > .Dados{
     border-radius: 30px;
     display: block;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     
     position: fixed;
     top: 13%;
     left: 57%;
 }
+.Dados > .d4{
+    margin: 5px;
+    padding: 0px 10px;
+    position: relative;
     
+
+
+    
+}

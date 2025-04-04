@@ -20,11 +20,24 @@
     <main>
         <div class="Criador">
             <!--Um menu com todas as opções de criação de personagens-->
+            
+            <div class="Input-balão">
+                <input type="text" required>
+                <label for="NomePers">Nome do personagem</label>
+            </div>
+
             <div class="Input-balão">
                 <input type="text" required>
                 <label for="Vida">Vida</label>
             </div>
-            
+            <div class="Input-balão">
+                <input type="text" required>
+                <label for="LvL">LvL</label>
+            </div>
+            <div class="Input-balão">
+                <input type="number">
+                <label for="Força">Força</label>
+            </div>
 
         </div>
         <div class="Previa">
@@ -33,13 +46,27 @@
         </div>
         <div class="Dados">
             <!-- Um menu pequeno com os dados principais do rpg em ordem d6 d8 d10 d12 d20 d100-->
-            <input type="button" value="D4">
-            <input type="button" value="D6">
-            <input type="button" value="D8">
-            <input type="button" value="D10">
-            <input type="button" value="D12">
-            <input type="button" value="D20">
+            <div>
+                <input type="button" value="">
+                <label for="1d4">1d4</label>
+            </div>
+            <div>
+                <input type="button" value="D8">
+                </div>
+            <div>
+                <input type="button" value="D10">
+            </div>
+            <div>
+                <input type="button" value="D12">
+            </div>
+            <div>
+                <input type="button" value="D20">
+            </div>
+            <div>
+                <input type="button" value="D6">
+            </div>
         </div>
+       
     </main>
 
     <!-- Talvez colocar algo no fim da pagina? -->
