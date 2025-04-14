@@ -46,29 +46,27 @@
         </div>
         <div class="Dados">
             <!-- Um menu pequeno com os dados principais do rpg em ordem d6 d8 d10 d12 d20 d100-->
-            <div>
-                <input type="button" value="">
-                <label for="1d4">1d4</label>
+                <input type="button" value="1d4" id="D4" onclick="rolld4()">
+
+                <input type="button" value="D6" onclick="rolld6()"> 
+                
+                <input type="button" value="D8" id="D8" onclick="rolld8()">
+
+                <input type="button" value="D10" onclick="rolld10()">
+
+                <input type="button" value="D12" onclick="rolld12()">   
+
+                <input type="button" value="D20" onclick="rolld20()">
+
+                <br>
+
+                <p id="ressultado"></p>
             </div>
-            <div>
-                <input type="button" value="D8">
-                </div>
-            <div>
-                <input type="button" value="D10">
-            </div>
-            <div>
-                <input type="button" value="D12">
-            </div>
-            <div>
-                <input type="button" value="D20">
-            </div>
-            <div>
-                <input type="button" value="D6">
-            </div>
-        </div>
+
        
     </main>
 
     <!-- Talvez colocar algo no fim da pagina? -->
+     <script src="Codigo.JS"></script>
 </body>
 </html>

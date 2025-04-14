@@ -114,20 +114,11 @@ main > .Dados{
     height: 17dvh;
     margin: 1%;
     border-radius: 30px;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     justify-content: space-between;
-    
     position: fixed;
     top: 13%;
     left: 57%;
-}
-.Dados > .d4{
-    margin: 5px;
-    padding: 0px 10px;
-    position: relative;
-    
-
-
-    
 }
